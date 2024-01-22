@@ -163,31 +163,6 @@ Tahmin sonuçlarının değerlendirilmesi ve modelin ne kadar başarılı olduğ
 
 
 
-## Veri Keşfi ve Temizliği:
-
-Veri setinizi inceleyerek eksik veya anormal değerleri tespit edin ve bu değerleri ele alın.
-Veri setindeki kategorik değişkenleri one-hot encoding veya label encoding gibi yöntemlerle sayısallaştırın.
-
-## Özellik Analizi:
-
-Veri setindeki her özelliğin obezite üzerindeki etkilerini değerlendirin. Hangi özelliklerin daha belirleyici olduğunu anlamak için özellikler arasındaki ilişkileri inceleyin.
-
-## Sınıflandırma Modeli Oluşturma:
-
-Veri setinizi eğitim ve test setlerine bölebilirsiniz.
-Sınıflandırma modelleri (Decision Trees, Random Forest, Logistic Regression vb.) kullanarak obezite durumunu tahmin etmeye çalışabilirsiniz.
-
-## Model Performansı Değerlendirme:
-
-Oluşturduğunuz modelin performansını değerlendirin. Accuracy, precision, recall gibi metrikleri kullanarak modelin ne kadar başarılı olduğunu değerlendirin.
-
-# Feature Importance Analizi:
-Oluşturduğunuz model üzerinden feature importance analizi yaparak, hangi özelliklerin obeziteyi daha fazla etkilediğini belirleyin.
-
-## Öneri ve Stratejiler:
-
-Analiz sonuçlarına dayanarak, bireylerin obezite riskini azaltmalarına yönelik önerilerde bulunun. Bu öneriler, sağlıklı beslenme, düzenli egzersiz, yaşam tarzı değişiklikleri gibi konuları içerebilir.
-Projenin önemi, obezitenin küresel bir sağlık sorunu olması ve bu tür bir modelin kullanılarak bireylere sağlıklı yaşam tarzı konusunda bilgi verilmesi veya sağlık profesyonellerine yardımcı olmasıdır. Bu tür modeller, obeziteye yönelik önleyici stratejilerin geliştirilmesinde ve toplum sağlığının iyileştirilmesinde önemli bir rol oynayabilir.
 
 
 
