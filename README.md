@@ -43,12 +43,12 @@ Proje, obezite durumunu tahminlemek için aşağıdaki özellikleri kullanmaktad
 - MTRANS (Automobile, Bike, Motorbike, Public_Transportation, Walking): Bir katılımcının ana ulaşım aracını belirtir. Ana ulaşım aracı 1 olarak belirtilir, diğer araçlar 0 olarak belirtilir.
 
 - NObeyesdad (obezite tipleri): 
-Zayıf(Underweight): 18,5'tan az
-Normal(Normal): 18,5 ila 24,9
-Aşırı kilolu(Overweight): 25,0 ila 29,9
-Obezite I(Obesity I): 30,0 ila 34,9
-Obezite II(Obesity II): 35,0 ila 39,9
-Obezite III(Obesity III): 40'tan yüksek
+  - Zayıf(Underweight): 18,5'tan az
+  - Normal(Normal): 18,5 ila 24,9
+  - Aşırı kilolu(Overweight): 25,0 ila 29,9
+  - Obezite I(Obesity I): 30,0 ila 34,9
+  - Obezite II(Obesity II): 35,0 ila 39,9
+  - Obezite III(Obesity III): 40'tan yüksek
 
 - Obezite Durumu (Obsity_Status): Bir katılımcı obezse 1, değilse 0'dır.
 
@@ -91,7 +91,7 @@ Projenin çalışması için aşağıdaki Python kütüphanelerine ihtiyaç vard
 
 
 
-Obezite tahminleme yapmak için bir makine öğrenimi modeli oluşturulması aşamaları:
+# Obezite tahminleme yapmak için bir makine öğrenimi modeli oluşturulması aşamaları:
 
 # Veri Toplama ve Hazırlama:
 
@@ -110,6 +110,8 @@ Anlamsız veya aykırı verilerin düzeltilmesi veya çıkarılması.
   - Pair Plot: Bir veri kümesindeki farklı sayısal özelliklerin çiftler arasındaki ilişkileri ve dağılımları görselleştiren bir grafik türüdür. Seaborn kütüphanesi içinde bulunan sns.pairplot() fonksiyonu, bir DataFrame içindeki sayısal sütunlar arasındaki ilişkileri çiftler halinde gösteren bir matris oluşturur.
 
   - Bar Plot(Sütun Grafiği): Kategorik verilerin miktarını karşılaştırmak için kullanılır.
+
+  - Scatter Plot(Nokta Grafiği): Scatter plot, iki değişken arasındaki ilişkiyi gösteren bir grafik türüdür. Bu grafikte, her bir veri noktası (gözlem birimi) iki değişkenin değerlerini temsil eder ve bu noktalar bir düzlem üzerine dağılmıştır. X ekseni bir değişkeni, Y ekseni ise diğer değişkeni temsil eder.
 
   - Histogram: Sürekli bir değişkenin dağılımını görmek için kullanılır.
 
