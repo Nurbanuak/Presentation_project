@@ -115,6 +115,8 @@ Anlamsız veya aykırı verilerin düzeltilmesi veya çıkarılması.
 
   - Histogram: Sürekli bir değişkenin dağılımını görmek için kullanılır.
 
+  - Violin Grafiği: Bir veya birden fazla kategorik değişkenin dağılımını göstermek için.
+
   - Seaborn Linear Model Plot: sns.lmplot, Seaborn kütüphanesinde bulunan ve regresyon analizi sonuçlarını görselleştirmek için kullanılan bir fonksiyondur. Bu fonksiyon, iki sayısal değişken arasındaki ilişkiyi değerlendirmek ve bu ilişkiyi regresyon çizgisi ile göstermek amacıyla kullanılır.
 
   - FacetGrid: Seaborn kütüphanesinde veri görselleştirmek için kullanılan bir metoddur. Bu metot, alt grafiklere bölünmüş bir ana grafik oluşturmak ve her bir alt grafikte belirli bir alt küme veriyi göstermek için kullanılır. 
