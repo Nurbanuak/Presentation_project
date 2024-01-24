@@ -61,24 +61,21 @@ Projenin çalıştırılması için aşağıdaki adımlar takip edilmiştir:
 2. Ana kod dosyasını çalıştırarak makine öğrenimi modelini eğitin ve sonuçları gözlemleyin.
 
 ## Gereksinimler
-
 Projenin çalışması için aşağıdaki Python kütüphanelerine ihtiyaç vardır:
 
-- Pandas (import pandas as pd): Veri analizi ve manipülasyonu için kullanılır. Pandas DataFrame'leri ile veri tablolarını işlemek ve analiz etmek için kullanılır.
+Pandas (import pandas as pd): Veri analizi ve manipülasyonu için kullanılır. Pandas DataFrame'leri ile veri tablolarını işlemek ve analiz etmek için kullanılır.
 
-- NumPy (import numpy as np): Bilimsel hesaplamalar ve çok boyutlu dizilerle çalışmak için kullanılır.
+NumPy (import numpy as np): Bilimsel hesaplamalar ve çok boyutlu dizilerle çalışmak için kullanılır.
 
-- Matplotlib (import matplotlib.pyplot as plt): Veri görselleştirme için kullanılır. pyplot modülü, grafik çizimi ve veri görselleştirmeyi sağlar.
+Matplotlib (import matplotlib.pyplot as plt): Veri görselleştirme için kullanılır. pyplot modülü, grafik çizimi ve veri görselleştirmeyi sağlar.
 
-- PyLab (import pylab as pl): Matematiksel hesaplamalar ve grafik çizimi için kullanılır. Genellikle Matplotlib ile birlikte kullanılır.
+PyLab (import pylab as pl): Matematiksel hesaplamalar ve grafik çizimi için kullanılır. Genellikle Matplotlib ile birlikte kullanılır.
 
-- Seaborn (import seaborn as sns): Matplotlib tabanlı bir veri görselleştirme kütüphanesidir. Özellikle istatistiksel grafikler oluşturmak için kullanılır.
+Seaborn (import seaborn as sns): Matplotlib tabanlı bir veri görselleştirme kütüphanesidir. Özellikle istatistiksel grafikler oluşturmak için kullanılır.
 
-- Plotly Express (import plotly.express as px): İnteraktif ve çarpıcı grafikler oluşturmak için kullanılır. Özellikle interaktif web tabanlı uygulamalarda kullanılabilir.
+Plotly Express (import plotly.express as px): İnteraktif ve çarpıcı grafikler oluşturmak için kullanılır. Özellikle interaktif web tabanlı uygulamalarda kullanılabilir.
 
-- Scikit-learn (from sklearn import preprocessing, model_selection, linear_model, ensemble, tree, svm, metrics): Makine öğrenimi algoritmalarını içeren bir kütüphanedir. Öğrenme, ölçekleme, sınıflandırma, regresyon ve performans ölçümü gibi işlemleri destekler.
-
-
+Scikit-learn (from sklearn import preprocessing, model_selection, linear_model, ensemble, tree, svm, metrics): Makine öğrenimi algoritmalarını içeren bir kütüphanedir. Öğrenme, ölçekleme, sınıflandırma, regresyon ve performans ölçümü gibi işlemleri destekler.
 
 
 ## Projenin Amacı
